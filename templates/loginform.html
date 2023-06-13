@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAF ASSIGNMENT 4</title>
+</head>
+    <body>
+        <center>
+            <form action="{{ url_for('loginpage')}}" method="post">
+                <fieldset style="width:40%">
+                <legend style="text-align: center;">IAF Assignment - 4</legend>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="fname" placeholder="EG: JOHN, AJAY"> <br><br>
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="lname" placeholder="EG: MURTHY, ABHRAMBHAM"> <br><br>
+                    <button type="submit">Login</button>
+                </fieldset>
+            </form>
+        </center>
+</body>
+</html>
